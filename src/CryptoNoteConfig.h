@@ -106,7 +106,7 @@ const uint64_t TESTNET_DIFFICULTY_TARGET                             = 15; // ta
 } // parameters
 
 const char     CRYPTONOTE_NAME[]                             = "Laniakey";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "013c01ff0001c89d9deb96fac29dcae806029b2e4c0281c0b02e94d1d0cbff8f51883f42ee4fbbd3b494f3080248071e903d44de3589f6a8460821014644817dbdf377c53291ae320be0ccf620a3589b";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "013c01ff0001ffffffffffff03029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121017767aafcde9be00dcfd098715ebcf7f410daebc582fda69d24a28e9d0bc890d1";
 
 const uint8_t  TRANSACTION_VERSION_1                         =  1;
 const uint8_t  TRANSACTION_VERSION_2                         =  2;
@@ -144,7 +144,7 @@ const char* const SEED_NODES[] = {
   "140.82.52.21:26080",
   "185.247.21.235:26080",
   "133.130.123.36:26080",
-  "37.229.15.150",
+  "37.229.15.150:26080",
 
 };
 
