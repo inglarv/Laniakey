@@ -106,7 +106,7 @@ const uint64_t TESTNET_DIFFICULTY_TARGET                             = 15; // ta
 } // parameters
 
 const char     CRYPTONOTE_NAME[]                             = "Laniakey";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "013c01ff0001ffffffffffff03029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121017767aafcde9be00dcfd098715ebcf7f410daebc582fda69d24a28e9d0bc780d1";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "013c01ff0001ffffffffffff03029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121017767aafcde9be00dcfd098715ebcf7f410daebc582fda69d24a28e9d0bc780d2";
 
 const uint8_t  TRANSACTION_VERSION_1                         =  1;
 const uint8_t  TRANSACTION_VERSION_2                         =  2;
@@ -141,10 +141,8 @@ const size_t   P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT          = 5000;          //
 const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "db9eabe971890012a4071a96468155c2c360f80d18e73caa97bffd3b7381eed7";
 
 const char* const SEED_NODES[] = {
-  "140.82.52.21:26080",
-  "185.247.21.235:26080",
-  "133.130.123.36:26080",
-  "37.229.15.150:26080",
+  "109.238.6.109:26080",
+   "212.15.133.222:26080",
 
 };
 
