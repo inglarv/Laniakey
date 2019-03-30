@@ -142,7 +142,7 @@ const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "db9eabe971890012
 
 const char* const SEED_NODES[] = {
   "109.238.6.109:26080",
-   "212.15.133.222:26080",
+   ":194.76.224.43:26080",
 
 };
 
