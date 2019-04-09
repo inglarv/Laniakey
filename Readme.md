@@ -29,6 +29,8 @@ Dependencies: MSVC 2017 or later, CMake 3.14.1 or later, and Boost 1.69.
 You may download them from:
 
 http://www.microsoft.com/
+
 http://www.cmake.org/
+
 http://www.boost.org/
 
