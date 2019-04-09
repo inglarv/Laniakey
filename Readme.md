@@ -24,7 +24,7 @@ PORTABLE=1 make
 For Windows:
 ==========
 
-Dependencies: MSVC 2017 or later, CMake 3.14.1 or later, and Boost 1.69.
+Dependencies: MSVC 2013 or later, CMake 3.14 or later, and Boost >=1.58.
 
 You may download them from:
 
