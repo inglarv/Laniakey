@@ -1,4 +1,5 @@
-Install dependecies:
+
+Install dependencies:
 
 ```
 apt update && apt upgrade -y && apt install -y git build-essential cmake make libuv1-dev libmicrohttpd-dev uuid-dev libboost-all-dev
