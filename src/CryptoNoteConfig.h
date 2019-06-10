@@ -42,7 +42,7 @@ const unsigned EMISSION_SPEED_FACTOR                         = 27;
 // mandatory mixin V4
 const uint8_t MANDATORY_MIXIN_BLOCK_VERSION                  = 4;
 const size_t MIN_MIXIN                                       = 4;
-const size_t MAX_MIXIN                                       = 101;
+const size_t MAX_MIXIN                                       = 10;
 
 
 static_assert(EMISSION_SPEED_FACTOR <= 8 * sizeof(uint64_t), "Bad EMISSION_SPEED_FACTOR");
