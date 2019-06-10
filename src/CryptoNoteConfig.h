@@ -56,9 +56,9 @@ const size_t   CRYPTONOTE_DISPLAY_DECIMAL_POINT              = 12;
 const uint64_t MINIMUM_FEE                                   = UINT64_C(1000000);    // pow(10, 6)
 const uint64_t DEFAULT_DUST_THRESHOLD                        = UINT64_C(1000000);    // pow(10, 6)
 
-const uint64_t DIFFICULTY_TARGET                             = 60;
+const uint64_t DIFFICULTY_TARGET                             = 30;
 const uint64_t EXPECTED_NUMBER_OF_BLOCKS_PER_DAY             = 24 * 60 * 60 / DIFFICULTY_TARGET;
-const size_t   DIFFICULTY_WINDOW                             = 720; //EXPECTED_NUMBER_OF_BLOCKS_PER_DAY;
+const size_t   DIFFICULTY_WINDOW                             = 1440; //EXPECTED_NUMBER_OF_BLOCKS_PER_DAY;
 const size_t   DIFFICULTY_WINDOW_V2                          = 720;
 const size_t   DIFFICULTY_WINDOW_V4                          = 720;
 const size_t   DIFFICULTY_CUT                                = 60;
@@ -152,13 +152,7 @@ struct CheckpointData {
 };
 
 const std::initializer_list<CheckpointData> CHECKPOINTS = {
-    {200000, "23f18774eee12a43c80d7162fba4d5fb10290128f31890a7cd0ff6c4e2948277"},
-    {400000, "a1d34d9e229c6e425f7a9d5dfa1fa35525e3f387ed664a04c6ef5cc609357057"},
-    {600000, "2a9461eb7ae8a934a111b2e9f570e81efaf02c5382a9c707cadce88e768a9205"},
-    {800000, "a1ed05e9671acce3cfa7dd283f0be5320b8d626fe84be4703fc8d3be95ffcc59"},
-    {1000000, "d410152f30e4c21e0bc1d82ee80f757fd2223e8a1636774b8759101f4f21dd91"},
-    {1500000, "23e3e5273df28de9036b7336894578873257e1b1a2d2d14ab9945b7333ce8707"},
-    {2000000, "2d5892e15d7b2066d0b26aa150c4419676dbf7678d220b2d111c74c54c0fe6ad"}
+
 };
 
 } // CryptoNote
